@@ -1,75 +1,217 @@
 <!DOCTYPE html>
-<html>
-<link rel="stylesheet" href="style.css">
+<html lang="en-CA">
 <head>
-    <title>Your Name - Curriculum Vitae</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    <h1>Your Name</h1>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+<div class="container">
+    <header>
+        <h1 class="name">Nicholas Ho</h1>
+        <div class="contact">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="nicholasriven717@gmail.com">Email</a>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <a href="tel:+85253404052">Phone</a>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/eipi717">GitHub</a>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/nicholas-ho-954053216">LinkedIn</a>
+            </div>
+        </div>
+    </header>
 
-<main>
-    <section id="about">
-        <h2>About</h2>
-        <p>Write a brief summary about yourself here.</p>
-    </section>
+    <main>
+        <section class="section">
+            <h2 class="section-title">Summary</h2>
+            <hr class="section-divider">
+            <p>Highly motivated and adaptable developer with a passion for mathematics, programming, and continuous learning. Significant experience in web scraping, data integration, and data segmentation. Eager to expand knowledge and expertise in the IT field and take on new challenges. Experience in processing data with data pipelines. Proven track record of collaborating effectively with teams on various projects. Comfortable working in both remote and in-office environments.</p>
+        </section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <ul>
-            <li><strong>Degree:</strong> Name of degree, Name of university, Graduation year</li>
-            <li><strong>Degree:</strong> Name of degree, Name of university, Graduation year</li>
-        </ul>
-    </section>
+        <section class="section">
+            <h2 class="section-title">Education</h2>
+            <hr class="section-divider">
+            <div class="education">
 
-    <section id="experience">
-        <h2>Experience</h2>
-        <ul>
-            <li>
-                <h3>Job title</h3>
-                <p><strong>Company:</strong> Name of company</p>
-                <p><strong>Dates:</strong> Start date - End date</p>
-                <ul>
-                    <li>Bullet point describing your responsibilities and achievements</li>
-                    <li>Bullet point describing your responsibilities and achievements</li>
-                </ul>
-            </li>
+                <div class="education-item">
+                    <div class="education-date">09/2018 - 01/2023</div>
+                    <div class="education-details">
+                        <div class="education-title">Bachelor of Engineering</div>
+                        <div class="education-institution">The University Of Hong Kong</div>
+                        <div class="education-subtitle">
+                            <ul>
+                                <li>Major in Computer Engineering</li>
+                                <li>Minor in Mathematics</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-            <li>
-                <h3>Job title</h3>
-                <p><strong>Company:</strong> Name of company</p>
-                <p><strong>Dates:</strong> Start date - End date</p>
-                <ul>
-                    <li>Bullet point describing your responsibilities and achievements</li>
-                    <li>Bullet point describing your responsibilities and achievements</li>
-                </ul>
-            </li>
-        </ul>
-    </section>
+                <div class="education-item">
+                    <div class="education-date">09/2017 - 06/2018</div>
+                    <div class="education-details">
+                        <div class="education-title">Associate in Engineering</div>
+                        <div class="education-institution">Hong Kong Community College</div>
+                    </div>
+                </div>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Skill 1</li>
-            <li>Skill 2</li>
-            <li>Skill 3</li>
-        </ul>
-    </section>
+            </div>
+        </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Include your contact information here, such as your email address and social media profiles.</p>
-    </section>
-</main>
+        <section class="section">
+            <h2 class="section-title">Work Experience</h2>
+            <hr class="section-divider">
+            <div class="work-experience">
+
+                <div class="work-experience-item">
+                    <div class="work-experience-date">08/2022 - Present</div>
+                    <div class="work-experience-details">
+                        <div class="work-experience-title">Software Developer</div>
+                        <div class="work-experience-company">Lively Impact Technology Limited</div>
+                        <div class="work-experience-description">
+                            <ul>
+                                <li>Designed, developed, and maintained software products of the Company</li>
+                                <li>Collaborated with government to develop a web scraping tool that met the needs of the
+                                    Food and Environmental Hygiene Department, resulting in improved data collection and
+                                    analysis capabilities</li>
+                                <li>Development on social listening tool (interactive UI and backend) with features such as
+                                    real-time data tracking, sentiment analysis, and data visualization</li>
+                                <li>Developed and maintained a data segmentation tool with a data warehouse and data pipeline for processing big data, enabling the organization to gain insights from large
+                                    datasets</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-experience-item">
+                    <div class="work-experience-date">05/2022 - 07/2022</div>
+                    <div class="work-experience-details">
+                        <div class="work-experience-title">AI Specialist Internship</div>
+                        <div class="work-experience-company">WildFaces Technology Ltd</div>
+                        <div class="work-experience-description">
+                            <ul>
+                                <li>Articulate complex AI solutions in a simpler way</li>
+                                <li>Assist in Data Mining activities (e.g. from data collection etc)</li>
+                                <li>Establish research project to optimize the existing product</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-experience-item">
+                    <div class="work-experience-date">10/2021 - 05/2022</div>
+                    <div class="work-experience-details">
+                        <div class="work-experience-title">Tutor</div>
+                        <div class="work-experience-company">M Learning</div>
+                        <div class="work-experience-description">
+                            <ul>
+                                <li>Articulate complex AI solutions in a simpler way</li>
+                                <li>Assist in Data Mining activities (e.g. from data collection etc)</li>
+                                <li>Establish research project to optimize the existing product</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-experience-item">
+                    <div class="work-experience-date">06/2021 - 08/2021</div>
+                    <div class="work-experience-details">
+                        <div class="work-experience-title">STEM Intern</div>
+                        <div class="work-experience-company">Pi Innovation Limited</div>
+                        <div class="work-experience-description">
+                            <ul>
+                                <li>Preparing teaching materials for primary school student</li>
+                                <li>Tutoring lesson on 3D Printing (TinkerCAD)</li>
+                                <li>Tutoring lesson on programming (Micro: Bit)</li>
+                                <li>Designing the course for primary school students</li>
+                                <li>Teaching primary students (STEM courses: Science, Logic)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-experience-item">
+                    <div class="work-experience-date">05/2018 - 08/2019</div>
+                    <div class="work-experience-details">
+                        <div class="work-experience-title">Student Assistant in the Hong Kong Community College</div>
+                        <div class="work-experience-company">The Hong Kong Polytechnic University</div>
+                        <div class="work-experience-description">
+                            <ul>
+                                <li>Provide help to students who have difficulties in mathematics, especially on Calculus, Statistic and Linear Algebra</li>
+                                <li>Hold the enhancement course to help students who perform poor in the course</li>
+                                <li>Ensure continuous operations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Skills</h2>
+            <hr class="section-divider">
+
+            <h2 class="section-subtitle">Programming language</h2>
+            <div class="skillset">
+                <div class="skill">Python</div>
+                <div class="skill">C</div>
+                <div class="skill">C++</div>
+                <div class="skill">Java</div>
+                <div class="skill">Dart</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">TypeScript</div>
+            </div>
+
+            <h2 class="section-subtitle">Databases</h2>
+            <div class="skillset">
+                <div class="skill">MySQL</div>
+                <div class="skill">MongoDB</div>
+            </div>
+
+            <h2 class="section-subtitle">Web Scraping</h2>
+            <div class="skillset">
+                <div class="skill">Selenium</div>
+                <div class="skill">BeautifulSoup</div>
+            </div>
+
+            <h2 class="section-subtitle">Web Development Framework</h2>
+            <div class="skillset">
+                <div class="skill">ReactJS</div>
+                <div class="skill">Angular</div>
+                <div class="skill">Springboot</div>
+                <div class="skill">Django</div>
+            </div>
+
+            <h2 class="section-subtitle">Mobile App Development</h2>
+            <div class="skillset">
+                <div class="skill">SwiftUI</div>
+                <div class="skill">Flutter</div>
+            </div>
+
+            <h2 class="section-subtitle">Big Data</h2>
+            <div class="skillset">
+                <div class="skill">Apache Flink</div>
+            </div>
+
+            <h2 class="section-subtitle">Project Management</h2>
+            <div class="skillset">
+                <div class="skill">GitHub</div>
+                <div class="skill">Agile</div>
+                <div class="skill">Subversion</div>
+            </div>
+
+        </section>
+    </main>
+</div>
 </body>
 </html>
